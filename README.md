@@ -25,7 +25,7 @@ Create a `.env` file in the root directory with the following variables:
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/chapter-dashboard
 REDIS_URL=redis://localhost:6379
-ADMIN_API_KEY=your-secret-admin-key
+ADMIN_API_KEY=secret-admin-key
 ```
 
 ## Installation
