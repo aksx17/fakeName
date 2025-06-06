@@ -17,6 +17,8 @@ app.use(express.json());
 app.use(cors());
 app.use(helmet());
 
+app.set('trust proxy', 1);
+
 // Rate limiting
 const limiter = rateLimit({
   store: new RedisStore({
