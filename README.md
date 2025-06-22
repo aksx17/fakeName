@@ -27,7 +27,6 @@ MONGODB_URI=mongodb://localhost:27017/chapter-dashboard
 REDIS_URL=redis://localhost:6379
 ADMIN_API_KEY=secret-admin-key
 ```
-
 ## Installation
 
 1. Clone the repository
